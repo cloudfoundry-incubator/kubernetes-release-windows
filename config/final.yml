@@ -1,0 +1,8 @@
+---
+final_name: kubernetes-windows
+blobstore:
+  provider: s3
+  options:
+    bucket_name: kubernetes-release-windows-blobs
+    region: us-east1
+    host: storage.googleapis.com
